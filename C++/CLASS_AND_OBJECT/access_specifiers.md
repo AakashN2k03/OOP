@@ -1,5 +1,5 @@
 # Access Specifiers in C++ Classes
-
+ 
 In C++, **access specifiers** control the visibility and accessibility of class members (variables and functions). They are fundamental to implementing encapsulation, one of the core principles of object-oriented programming.
 
 ## Types of Access Specifiers
