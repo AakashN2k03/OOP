@@ -88,10 +88,3 @@ int main() {
 - **Local objects**: Cleaned up when `main()` reaches `}`, while `main()` is still running
 - **Global/Static objects**: Cleaned up after `main()` finishes, just before the program stops
 
-## Best Practices
-- Be aware of object lifecycle and destructor call timing
-- Understand the difference between local and global object destruction
-- Use destructors for proper resource management and cleanup
-
-## Conclusion
-Understanding when destructors are called is crucial for managing memory and resources in C++ programs.
