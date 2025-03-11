@@ -93,16 +93,35 @@ A **class itself does take some memory**, but not in the same way as objects. Wh
 
 
 ### Does a class take memory by default?
-No, **a class itself does not take memory** when it is defined. It is just a blueprint. Memory is allocated **only when an object (instance) is created**.
 
-Class Memory:
-
+# Class Memory:
 Yes, when you define a class, Python allocates memory for:
 Class-level attributes (like class_variable)
 Methods (like method())
 Metadata (class-level information)
 This memory is allocated once when the class is defined and is shared across all objects of that class.
-Object Memory:
 
+# Object Memory:
 No, the class doesn't allocate memory for instance variables until an object is created.
 Object-level memory (instance variables like self.variable) is only allocated when an object is created.
+
+# Example
+```python
+class ClassName:
+    # Class attributes (Stored in Class Memory)
+    class_variable = "I am a class variable"
+    
+    # Constructor (called when an object is created)
+    def __init__(self, instance_variable):
+        self.instance_variable = instance_variable  # Stored in Object Memory
+        
+    # Method (stored in class memory)
+    def show(self):
+        print("Class variable:", ClassName.class_variable)
+        print("Instance variable:", self.instance_variable)
+
+# Creating Objects
+obj1 = ClassName("Object 1 Variable")
+obj2 = ClassName("Object 2 Variable")
+```
+
