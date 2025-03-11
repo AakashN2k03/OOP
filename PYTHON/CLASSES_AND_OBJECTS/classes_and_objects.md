@@ -40,6 +40,16 @@ class ClassName:
 * **Instance Variable** (`self.instance_variable`) → Specific to each object.
 * **Class Variable** (`class_variable`) → Shared among all objects.
 
+## What is an Instance Variable?
+* Defined inside __init__() using self.
+* Unique to each object.
+* Not shared among objects.
+
+## What is a Class Variable?
+* Defined outside __init__ but inside the class.
+* Shared among all objects.
+* Modified using ClassName.variable_name or cls in class methods.
+
 ## Objects in Python
 
 An **object** is an instance of a class. Each object has its own set of attributes and can call the methods defined in the class.
