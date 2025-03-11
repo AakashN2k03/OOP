@@ -8,10 +8,8 @@ This README provides an overview of classes and objects in Python, fundamental c
   - [Class Components](#class-components)
 - [Objects in Python](#objects-in-python)
   - [Creating Objects](#creating-objects)
-  - [Object Properties](#object-properties)
-- [Examples](#examples)
 - [Best Practices](#best-practices)
-- [Further Resources](#further-resources)
+
 
 ## Classes in Python
 
@@ -56,50 +54,6 @@ obj = ClassName("I am an instance variable")
 obj.show()
 ```
 
-### Object Properties
-
-Each object has:
-* **State** (defined by attributes/data members)
-* **Behavior** (defined by methods)
-
-## Examples
-
-Here's a complete example demonstrating classes and objects in Python:
-
-```python
-class Person:
-    # Class variable
-    species = "Homo sapiens"
-    
-    # Constructor
-    def __init__(self, name, age):
-        # Instance variables
-        self.name = name
-        self.age = age
-    
-    # Instance method
-    def introduce(self):
-        return f"Hello, my name is {self.name} and I am {self.age} years old."
-    
-    # Class method
-    @classmethod
-    def get_species(cls):
-        return cls.species
-
-# Creating objects
-person1 = Person("Alice", 30)
-person2 = Person("Bob", 25)
-
-# Using instance methods
-print(person1.introduce())  # Output: Hello, my name is Alice and I am 30 years old.
-print(person2.introduce())  # Output: Hello, my name is Bob and I am 25 years old.
-
-# Accessing class variable
-print(Person.species)  # Output: Homo sapiens
-
-# Using class method
-print(Person.get_species())  # Output: Homo sapiens
-```
 
 ## Best Practices
 
@@ -114,11 +68,3 @@ print(Person.get_species())  # Output: Homo sapiens
    - Use single underscore prefix (`_variable`) for protected members
    - Use double underscore prefix (`__variable`) for private members
 
-4. **Inheritance and Composition**:
-   - Use inheritance when there is an "is-a" relationship
-   - Use composition when there is a "has-a" relationship
-
-## Further Resources
-
-- [Python Official Documentation on Classes](https://docs.python.org/3/tutorial/classes.html)
-- [Real Python - OOP in Python](https://realpython.com/python3-object-oriented-programming/)
