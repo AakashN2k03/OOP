@@ -85,6 +85,13 @@ obj.show()  # Output: Local variable: 10
 
 ## Memory Management
 
+### Does a Class Take Memory in Python?
+A **class itself does take some memory**, but not in the same way as objects. When a class is **defined**, Python stores its **attributes, methods, and metadata** in memory. However, **no instance variables are stored** at this point because no object exists yet.
+
+👉 **A class gets memory allocated when it is defined, but this memory is only for class-level attributes, methods, and metadata.**
+👉 **An object gets its own separate memory only when it is created.**
+
+
 ### Does a class take memory by default?
 No, **a class itself does not take memory** when it is defined. It is just a blueprint. Memory is allocated **only when an object (instance) is created**.
 
@@ -92,9 +99,3 @@ No, **a class itself does not take memory** when it is defined. It is just a blu
 **🔹 Memory is allocated for the object, NOT the class!**
 * **Each object gets its own separate memory for instance variables.**
 * **Class variables are stored separately in class memory and shared by all objects.**
-
-### Does a Class Take Memory in Python?
-A **class itself does take some memory**, but not in the same way as objects. When a class is **defined**, Python stores its **attributes, methods, and metadata** in memory. However, **no instance variables are stored** at this point because no object exists yet.
-
-👉 **A class gets memory allocated when it is defined, but this memory is only for class-level attributes, methods, and metadata.**
-👉 **An object gets its own separate memory only when it is created.**
