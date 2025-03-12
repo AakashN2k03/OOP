@@ -271,6 +271,6 @@ By default, **all methods in a Python class are**:
 2. They require `self` as the first parameter
 
 ## Memory
-# NOTE: All these methods are loaded only once at memory because these are class level definition
+#### NOTE: All these methods are loaded only once at memory because these are class level definition
 
 
