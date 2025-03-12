@@ -5,7 +5,7 @@ This guide explains the three types of methods in Python classes with examples a
 ## Table of Contents
 - [Overview](#overview)
 - [Instance Methods](#instance-methods)
-- [Class Methods](#class-methods)
+- [Class Methods](#class-methods) 
 - [Static Methods](#static-methods)
 - [Comparison Table](#comparison-table)
 - [When to Use Each Method Type](#when-to-use-each-method-type)
