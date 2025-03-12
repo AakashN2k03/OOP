@@ -270,10 +270,7 @@ By default, **all methods in a Python class are**:
 1. **Instance Methods** (if not decorated with `@staticmethod` or `@classmethod`)
 2. They require `self` as the first parameter
 
-## Contributors
+## Memory
+# NOTE: All these methods are loaded only once at memory because these are class level definition
 
-This guide was created to help Python developers understand the differences between instance, class, and static methods.
 
----
-
-Feel free to contribute to this guide by submitting pull requests!
