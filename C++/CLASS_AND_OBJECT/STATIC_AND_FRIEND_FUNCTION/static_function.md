@@ -85,28 +85,29 @@ Count: 2
 ## 5. Why Use Static Functions?
 Static functions are useful in the following scenarios:
 
-Utility Functions: When you need helper or utility functions that don’t rely on an instance of the class but are logically part of the class.
+- Utility Functions: When you need helper or utility functions that don’t rely on an instance of the class but are logically part of the class.
 
-Access to Static Data: Static functions are used when you need to manipulate static variables, such as counting the number of objects created or managing global class-level data.
+- Access to Static Data: Static functions are used when you need to manipulate static variables, such as counting the number of objects created or managing global class-level data.
 
-Encapsulation of Logic: If a function only needs to interact with class-level data and does not require instance-specific data, it can be made static to avoid creating unnecessary object instances.
+- Encapsulation of Logic: If a function only needs to interact with class-level data and does not require instance-specific data, it can be made static to avoid creating unnecessary object instances.
 
 ## 6. Limitations of Static Functions
-No Access to Instance Members: Since static functions are not tied to an instance, they cannot access non-static variables or functions of the class.
+- No Access to Instance Members: Since static functions are not tied to an instance, they cannot access non-static variables or functions of the class.
 
-Cannot Use this Pointer: Since static functions do not belong to an object, they do not have access to the this pointer that points to the instance.
+- Cannot Use this Pointer: Since static functions do not belong to an object, they do not have access to the this pointer that points to the instance.
 
 ## 7. When to Use Static Functions?
 
-When the function needs to operate on class-level data: Static functions are ideal when the function needs to work with data that is shared across all instances of the class.
+- When the function needs to operate on class-level data: Static functions are ideal when the function needs to work with data that is shared across all instances of the class.
 
-To avoid object creation: If you don't want to create an instance of a class to call a method, you can make the method static. This is common for utility functions.
+- To avoid object creation: If you don't want to create an instance of a class to call a method, you can make the method static. This is common for utility functions.
 
-Encapsulation of logic that doesn’t depend on instance-specific data: If a method's behavior doesn't require access to instance variables, making it static ensures that it works directly with class-level data.
+- Encapsulation of logic that doesn’t depend on instance-specific data: If a method's behavior doesn't require access to instance variables, making it static ensures that it works directly with class-level data.
 
 ## Conclusion
-Static functions are functions that belong to the class rather than any particular object.
 
-They can be called without creating an object and can only access static variables and other static functions.
+- Static functions are functions that belong to the class rather than any particular object.
 
-Use static functions when you need to manage class-level data or perform operations that do not require instance-specific behavior.
+- They can be called without creating an object and can only access static variables and other static functions.
+
+- Use static functions when you need to manage class-level data or perform operations that do not require instance-specific behavior.
