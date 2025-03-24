@@ -32,7 +32,7 @@ public:
 4. Example of a Static Function
 Here’s an example to demonstrate how static functions work:
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
