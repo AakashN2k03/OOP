@@ -135,5 +135,5 @@ string getName() const;
 - Delete copy constructor and assignment operator if necessary.
 - Always initialize `const` members via ***member initializer lists***.
 
-Would you like more advanced examples or additional use cases? 🚀
+
 
