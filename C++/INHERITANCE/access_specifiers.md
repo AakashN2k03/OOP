@@ -81,7 +81,7 @@ class Derived : private Base {
 public:
     void accessMembers() {
         publicVar = 10;    // Accessible: publicVar is private in Derived
-        protectedVar = 20; // Accessible: protectedVar is private in Derived
+        protectedVar = 20; // Accessible: protectedVar is private in Derived 
         // privateVar = 30; // Error: privateVar is not accessible in Derived
     }
 };
