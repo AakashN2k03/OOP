@@ -3,7 +3,7 @@ A **Base Class** is a class whose properties (data members) and behaviors (metho
 
 ## 🔹 Syntax of Base Class
 ```cpp
-class Base {
+class Base { 
     // Data Members (Variables)
     // Member Functions (Methods)
 };
