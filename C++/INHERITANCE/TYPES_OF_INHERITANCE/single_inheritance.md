@@ -47,3 +47,6 @@ int main() {
 }
 ```
 
+### NOTE: ## Public inheritance is usually the most common because it allows the derived class to be treated as an instance of the base class and makes sense for an "is-a" relationship (e.g., Car is-a Vehicle).
+
+## Protected and private inheritance are used in special cases where you want to hide the base class's interface from outside code.
