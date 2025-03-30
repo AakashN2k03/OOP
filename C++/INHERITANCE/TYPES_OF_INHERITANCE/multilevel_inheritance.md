@@ -17,7 +17,7 @@
          |
          ↓
      DerivedClass2
-```multi
+```
 
 ## Code Example
 ### Multilevel Inheritance Example
