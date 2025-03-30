@@ -9,6 +9,15 @@
 - Establishes a Hierarchical Relationship
 - Shows method overriding.
 
+### Diagram Representation:
+```
+      BaseClass
+         |
+         ↓
+     DerivedClass1
+
+```
+
 ## Code Example
 ```cpp
 #include <iostream>
