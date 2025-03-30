@@ -79,7 +79,3 @@ Class B method
 Class C method
 Class D method
 ```
-
-## Conclusion
-Hybrid inheritance in C++ allows multiple types of inheritance to be combined, enabling more flexible and reusable code structures. However, it should be used cautiously to avoid ambiguity, especially when dealing with multiple inheritance.
-
