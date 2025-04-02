@@ -4,9 +4,9 @@ A **virtual function** is a member function in a base class that you can overrid
 
 ---
 ## Why Use Virtual Functions?
-✅ To achieve **dynamic binding** (i.e., function calls resolved at runtime instead of compile time).
-✅ To allow **function overriding** in derived classes.
-✅ To enable **polymorphism**, so that the correct function executes based on the actual object type.
+- ✅ To achieve **dynamic binding** (i.e., function calls resolved at runtime instead of compile time).
+- ✅ To allow **function overriding** in derived classes.
+- ✅ To enable **polymorphism**, so that the correct function executes based on the actual object type.
 
 ---
 ## Syntax of Virtual Function
