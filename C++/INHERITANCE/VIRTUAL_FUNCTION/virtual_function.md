@@ -1,4 +1,4 @@
-# Virtual Function in C++
+# Virtual Function ( RUNTIME POLYMORPHISM )
 
 A **virtual function** is a member function in a base class that you can override in a derived class. It enables **runtime polymorphism**, meaning that the function that gets called is determined at **runtime** based on the actual type of the object, not the type of the pointer or reference.
 
@@ -67,10 +67,10 @@ Because `show()` is a **virtual function**, so even though `basePtr` is of type 
 
 ---
 ## Key Features of Virtual Functions
-✅ Declared using **virtual** in the base class.
-✅ Must be **overridden** in the derived class.
-✅ Enables **runtime polymorphism** (calls derived class function using a base class pointer).
-✅ Supports **dynamic dispatch** (late binding instead of early binding).
+- ✅ Declared using **virtual** in the base class.
+- ✅ Must be **overridden** in the derived class.
+- ✅ Enables **runtime polymorphism** (calls derived class function using a base class pointer).
+- ✅ Supports **dynamic dispatch** (late binding instead of early binding).
 
 ---
 ## Virtual Function Without Overriding
