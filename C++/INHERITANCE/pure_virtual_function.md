@@ -1,7 +1,9 @@
 # Pure Virtual Functions (Abstract Functions)
 
 ## 1. What is a Pure Virtual Function?
-A pure virtual function is a function declared in a base class that must be overridden in derived classes. It has no function body in the base class and ensures that every derived class provides its own implementation. A class containing at least one pure virtual function is called an **abstract class** and cannot be instantiated.
+- A pure virtual function is a function declared in a base class that must be overridden in derived classes.
+- It has no function body in the base class and ensures that every derived class provides its own implementation.
+- A class containing at least one pure virtual function is called an **abstract class** and cannot be instantiated.
 
 ### Syntax:
 ```cpp
@@ -136,5 +138,3 @@ public:
 ## 10. Conclusion
 ✔ **Virtual Function** → Can be overridden, but not mandatory.  
 ✔ **Pure Virtual Function (Abstract Function)** → Must be overridden in derived classes.  
-✔ **Abstract Class** → A class that contains at least one pure virtual function and cannot be instantiated.  
-
