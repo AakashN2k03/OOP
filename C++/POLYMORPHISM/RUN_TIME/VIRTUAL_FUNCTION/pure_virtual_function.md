@@ -135,6 +135,18 @@ public:
 
 ---
 
+---
+
+## 🔹  Comparison between Abstract Function and Abstract Class   
+
+| 🔹 Concept       | 🔸 Abstract Function                           | 🔸 Abstract Class                                           |
+|------------------|-----------------------------------------------|-------------------------------------------------------------|
+| 📌 **Definition** | A function with no body, declared as `= 0`     | A class that has at least one abstract (pure virtual) function |
+| 🛠 **Syntax**     | `virtual void show() = 0;`                     | `class Base { virtual void show() = 0; };`                  |
+| 🎯 **Purpose**    | To force derived classes to override the function | To act as a base class template                             |
+
+---
+
 ## 10. Conclusion
 ✔ **Virtual Function** → Can be overridden, but not mandatory.  
 ✔ **Pure Virtual Function (Abstract Function)** → Must be overridden in derived classes.  
