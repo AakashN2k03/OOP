@@ -133,7 +133,7 @@ public:
 🔹 The `= 0` syntax means the function is **pure virtual (abstract)**.  
 🔹 The base class becomes an **abstract class**, meaning it cannot be instantiated.  
 
----
+
 
 ---
 
