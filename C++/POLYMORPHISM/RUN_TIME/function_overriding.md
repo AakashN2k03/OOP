@@ -85,14 +85,3 @@ int main() {
 - Game development where game entities share interfaces but have unique implementations
 - Plugin systems where different plugins implement common interfaces
 
-## Common Pitfalls
-
-- Not using the `virtual` keyword in the base class
-- Changing the function signature in the derived class (creates overloading, not overriding)
-- Forgetting to use the `override` keyword (can lead to subtle bugs)
-
-## Further Reading
-
-- Dynamic binding vs. static binding
-- Virtual destructors
-- Abstract classes and pure virtual functions
