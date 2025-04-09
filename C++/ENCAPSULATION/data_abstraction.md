@@ -1,7 +1,7 @@
 # Data Abstraction in C++
 
 ## 📌 What is Data Abstraction?
-
+ 
 **Definition:**
 Data abstraction means hiding complex implementation details and showing only the necessary information to the user.
 
