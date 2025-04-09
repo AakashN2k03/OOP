@@ -7,7 +7,7 @@ An **abstract class** in C++ is a class that **cannot be instantiated** on its o
 ✅ It **must have at least one pure virtual function**:
 
 ```cpp
-virtual void show() = 0; // Pure virtual function
+virtual void show() = 0; // Pure virtual function or abstract method
 ```
 
 ## 🧠 Why and When to Use Abstract Classes
