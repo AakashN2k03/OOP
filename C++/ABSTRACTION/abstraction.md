@@ -57,6 +57,18 @@ int main() {
     return 0;
 }
 ```
+#### 🧠 When to Use Abstraction
+
+- When you want to hide complex logic.
+- When users should only see what a function does, not how.
+- While building large, modular, or secure systems.
+
+### ✅ Advantages of Abstraction
+
+🎯 Simplifies code – easier to use and understand
+🛡️ Protects data – hides sensitive logic
+🔄 Improves maintainability – changes won’t affect users
+♻️ Reusability – same interface, different implementations
 
 ## 📚 NOTE
 - Abstraction is more about hiding complexity and showing only what's necessary to the outside world.
