@@ -1,6 +1,5 @@
 # C++ Final Keyword
 
-## Overview
 The `final` keyword was introduced in C++11 to prevent further overriding of virtual functions or inheriting from classes. It provides a way to control class design by explicitly marking methods or classes as terminal in their inheritance hierarchy.
 
 ## Use Cases
@@ -87,7 +86,7 @@ int main() {
 
 ## Summary
 
-| Use | Syntax | Example | Effect |
+| Use | Example | Effect |
 |-----|--------|---------|--------|
-| Prevent method override | `virtual void foo() final;` | `virtual void display() final` | Derived classes can't override the method |
-| Prevent class inheritance | `class A final { ... };` | `class A final { ... }` | No class can inherit from the class |
+| Prevent method override  | `virtual void display() final` | Derived classes can't override the method |
+| Prevent class inheritance  | `class A final { ... }` | No class can inherit from the class |
