@@ -86,7 +86,7 @@ int main() {
 
 ## Summary
 
-| Use | Example | Effect |
+| Use | Syntax | Example | Effect |
 |-----|--------|---------|--------|
-| Prevent method override  | `virtual void display() final` | Derived classes can't override the method |
-| Prevent class inheritance  | `class A final { ... }` | No class can inherit from the class |
+| Prevent method override | `virtual void foo() final;` | `virtual void display() final` | Derived classes can't override the method |
+| Prevent class inheritance | `class A final { ... };` | `class A final { ... }` | No class can inherit from the class |
