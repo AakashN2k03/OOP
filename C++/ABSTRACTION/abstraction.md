@@ -66,8 +66,11 @@ int main() {
 ### ✅ Advantages of Abstraction
 
 🎯 Simplifies code – easier to use and understand
+
 🛡️ Protects data – hides sensitive logic
+
 🔄 Improves maintainability – changes won’t affect users
+
 ♻️ Reusability – same interface, different implementations
 
 ## 📚 NOTE
