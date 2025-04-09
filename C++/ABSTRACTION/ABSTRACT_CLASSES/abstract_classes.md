@@ -93,7 +93,7 @@ Derived class constructor
 Derived show()
 ```
 
-✔️ See? The abstract class constructor **runs first**, then the derived class.
+✔️ The abstract class constructor **runs first**, then the derived class.
 
 ## ✅ Summary
 
