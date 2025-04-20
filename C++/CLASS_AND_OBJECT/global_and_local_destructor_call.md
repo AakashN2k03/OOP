@@ -1,8 +1,5 @@
 # When Does the Destructor Get Called? 🧹
 
-## Overview
-This README explores the different scenarios of destructor calls in C++, focusing on local (automatic) and global/static objects.
-
 ## Cases of Destructor Calls
 
 ### Case 1: Local (Automatic) Objects 🏠
